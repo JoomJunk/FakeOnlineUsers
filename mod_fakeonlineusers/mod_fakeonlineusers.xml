@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+    <name>JJ Fake Online Users</name>
+    <author>JoomJunk</author>
+	<creationDate>Sep 9th, 2011</creationDate>
+	<copyright>Copyright (C) 2011 - 2012 JoomJunk</copyright>
+	<authorEmail>admin@joomjunk.co.uk</authorEmail>
+	<authorUrl>http://www.joomjunk.co.uk</authorUrl>
+    <version>1.0.6</version>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <description>ONLINE_USERS_DESCRIPTION</description>
+    
+    <files>
+        <filename>mod_fakeonlineusers.xml</filename>
+        <filename module="mod_fakeonlineusers">mod_fakeonlineusers.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+    </files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_fakeonlineusers.ini</language>
+		<language tag="en-GB">en-GB/en-GB.mod_fakeonlineusers.sys.ini</language>
+    </languages>
+	
+	<updateservers>
+		<server type="extension" name="JJ Fake Online Users" priority="1">http://www.joomjunk.co.uk/updates/fakeonlineusers_update.xml</server>
+	</updateservers>
+	
+	<config>
+		<fields name="params">
+		<fieldset name="basic" label="Basic">
+			<field name="lownumber_guest" type="text" default="50" label="LOWLABELGUEST" description="LOWDESCGUEST" size="3" />
+			<field name="highnumber_guest" type="text" default="60" label="HIGHLABELGUEST" description="HIGHDESCGUEST" size="3" />
+			<field name="@spacer" type="spacer" default="" label="" description="" />
+			<field name="lownumber_member" type="text" default="20" label="LOWLABELMEMBER" description="LOWDESCMEMBER" size="3" />
+			<field name="highnumber_member" type="text" default="30" label="HIGHLABELMEMBER" description="HIGHDESCMEMBER" size="3" />
+			<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		</fieldset>
+		</fields>
+	</config>
+	
+</extension>
