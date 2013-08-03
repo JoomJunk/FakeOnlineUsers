@@ -15,7 +15,7 @@ $ -> Language fix or change
 - -> Removed
 ! -> Note
 
-Version 1.0.6
+Version 1.0.7
 ^ Complete Refactor of code
 # Language string for Module Class Suffix
 - Remove support for Joomla 1.5
