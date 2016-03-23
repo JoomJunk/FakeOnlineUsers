@@ -21,7 +21,9 @@
 	<languages folder="language">
 		<language tag="en-GB">en-GB/en-GB.mod_fakeonlineusers.ini</language>
 		<language tag="en-GB">en-GB/en-GB.mod_fakeonlineusers.sys.ini</language>
-    </languages>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_fakeonlineusers.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.mod_fakeonlineusers.sys.ini</language>
+    	</languages>
 	
 	<updateservers>
 		<server type="extension" name="JJ Fake Online Users" priority="1">http://www.joomjunk.co.uk/updates/fakeonlineusers_update.xml</server>
